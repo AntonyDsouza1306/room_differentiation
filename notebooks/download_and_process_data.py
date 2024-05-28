@@ -159,11 +159,11 @@ class DownloadOI:
     This function will create all the required files for the training
     '''
 
-    #self.download_OI_images()
-    #print('Images Downloaded')
+    self.download_OI_images()
+    print('Images Downloaded')
 
-    #self.create_classes_csv()
-    #print('classes.csv file created!')
+    self.create_classes_csv()
+    print('classes.csv file created!')
 
     self.create_annotations_csv()
     print('Annotations files created')
